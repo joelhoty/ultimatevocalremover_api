@@ -28,7 +28,7 @@ setup(
    url="https://github.com/NextAudioGen/ultimatevocalremover_api.git",
    package_data={
        'uvr': ['**/*.txt', '**/*.t7', '**/*.pth', '**/*.json', '**/*.yaml', '**/*.yml',
-               # Demucs sources refer to this MIT license; ship it with them.
-               'models_dir/demucs/LICENSE']
+               # Ship the licenses of the vendored third-party code with it.
+               'models_dir/demucs/LICENSE', 'third_party/*']
    }
 )
